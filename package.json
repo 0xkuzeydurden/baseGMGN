@@ -1,0 +1,10 @@
+{
+  "name": "base-dapp",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@8.15.4",
+  "scripts": {
+    "build": "pnpm --filter @base-dapp/contracts build && pnpm --filter @base-dapp/web build",
+    "dev": "pnpm --filter @base-dapp/contracts build && pnpm --filter @base-dapp/web dev"
+  }
+}

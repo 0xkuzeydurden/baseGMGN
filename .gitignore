@@ -1,0 +1,15 @@
+node_modules
+.pnpm-store
+.env
+.env.local
+.env.*.local
+.next
+out
+artifacts
+cache
+typechain-types
+dist
+.DS_Store
+
+# Local Netlify folder
+.netlify

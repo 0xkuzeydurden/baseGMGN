@@ -1,0 +1,83 @@
+{
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "newCount",
+          "type": "uint256"
+        }
+      ],
+      "name": "GM",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "newCount",
+          "type": "uint256"
+        }
+      ],
+      "name": "GN",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "gm",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "gmCount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "gn",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "gnCount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b50610182806100206000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c80633118f543146100515780636cb5f7101461005b578063aa5eda4314610076578063c0129d431461007f575b600080fd5b610059610087565b005b61006460005481565b60405190815260200160405180910390f35b61006460015481565b6100596100d9565b60018060008282546100999190610125565b909155505060015460405190815233907f0d6e70f6d4352cbc5ed87d11e40a63e634513b9dc9d09f3d8eb0fe1e91437d1e906020015b60405180910390a2565b60016000808282546100eb9190610125565b909155505060005460405190815233907f233926ebaf1ac730491a6511f2717bd3a999feaba09be6fcdc2b34b8313d962b906020016100cf565b8082018082111561014657634e487b7160e01b600052601160045260246000fd5b9291505056fea264697066735822122039267fb74b2513922f4e261d988661ccfa6a4cdb978fe0361ba9f4f89aa79bb664736f6c63430008180033"
+}
