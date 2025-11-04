@@ -37,3 +37,5 @@ The dApp only targets Base mainnet (`chainId 8453`). Ensure you have:
 - `NEXT_PUBLIC_GMGN_ADDRESS` – Optional default GMGN contract address prefilled in the UI.
 
 All transactions are sent from the connected wallet; no server-side keys are used.
+
+kızlar vallahi perfect
