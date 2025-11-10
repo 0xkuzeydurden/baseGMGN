@@ -8,7 +8,7 @@ import gmgnArtifact from "../lib/abis/GMGN.json";
 import { base } from "../lib/chains";
 import { Card } from "./Card";
 
-const GMGN_ADDRESS: Address = "0xFe2726C57A04f7A9810D5deF7E4791f3E5D32dCB";
+const GMGN_ADDRESS: Address = "0xb397541b944c3B25939Cb64cC88e8F7510dB2995";
 const gmgnAbi = gmgnArtifact.abi as Abi;
 
 type TxPhase = "Idle" | "Preparing" | "Submitted" | "Confirming" | "Success" | "Error";
